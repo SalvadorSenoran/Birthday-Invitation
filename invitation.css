@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    background-color: #303030;
+}
+nav {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #eeeeee;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: #303030;
+    margin-right: 50px;
+    transition: 0.2s;
+}
+li a:hover {
+    color: #eeeeee;
+}
+#home {
+    width: 43px;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#home:hover {
+    background-color: #f6c90e;
+}
+#event {
+    width: 41px;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#event:hover {
+    background-color: #f6c90e;
+}
+#bring {
+    width: 39px;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#bring:hover {
+    background-color: #f6c90e;
+}
+#rsvp {
+    width: 39px;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#rsvp:hover {
+    background-color: #f6c90e;
+}
+#loc {
+    width: 62px;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#loc:hover {
+    background-color: #f6c90e;
+}
+#contact {
+    width: 57px;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#contact:hover {
+    background-color: #f6c90e;
+}
+.fa-solid {
+    color: #303030;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-solid:hover {
+    color: #f6c90e;
+}
+section {
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 520px;
+}
+section h1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 140px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+section h1:hover {
+    color: #f6c90e;
+}
+hr {
+    margin-top: 5px;
+}
+#hr {
+    margin-right: 350px;
+    margin-left: 340px;
+}
+img {
+    float: right;
+    border-radius: 25px;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 140px;
+    transition: 0.2s;
+}
+img:hover {
+    height: 510px;
+}
+section p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 140px;
+}
+#main_event {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 140px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#main_event:hover {
+    color: #f6c90e;
+}
+#info {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #303030;
+    position: absolute;
+    height: 260px;
+    width: 190px;
+    margin-top: 60px;
+    margin-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+#to_bring {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 470px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#to_bring:hover {
+    color: #f6c90e;
+}
+#info2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #303030;
+    position: absolute;
+    height: 140px;
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 470px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+#section2 {
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 350px;
+}
+#info3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #303030;
+    position: absolute;
+    height: 40px;
+    width: 580px;
+    margin-top: 60px;
+    margin-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+#info3 a {
+    font-weight: 400;
+    color: #f6c90e;
+}
+#section3 {
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 130px;
+}
+#feedback {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 140px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#feedback:hover {
+    color: #f6c90e;
+}
+#section4 {
+    margin-top: 40px;
+    margin-left: 210px;
+    width: 1000px;
+    height: 520px;
+}
+#map {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 140px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#map:hover {
+    color: #f6c90e;
+}
+#mapframe {
+    width: 800px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+#section5 {
+    margin-top: 40px;
+    margin-left: 240px;
+    width: 1000px;
+    height: 150px;
+}
+#contact_us {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #eeeeee;
+    position: absolute;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 140px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#contact_us:hover {
+    color: #f6c90e;
+}
+#info4 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #303030;
+    position: absolute;
+    height: 40px;
+    width: 580px;
+    margin-top: 60px;
+    margin-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+#moa {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: #eeeeee;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
